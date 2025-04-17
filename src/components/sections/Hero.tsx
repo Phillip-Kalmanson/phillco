@@ -8,14 +8,18 @@ export default function Hero() {
           Phillip Kalmanson
         </h1>
         <p className="mt-4 text-xl text-white/90 max-w-xl">
-          Fueled by Coca-Cola, Code, and Curiosity.
+          Fueled by Coca-Cola 🥤, Code, and Curiosity.
           <br />
           I build fast, clean, scalable apps.
         </p>
       </div>
       <div className="space-x-4">
-        <Button size="lg">View My Work</Button>
-        <Button size="lg">Contact Me</Button>
+        <Button size="lg">
+          <a href="#projects">View My Work</a>
+        </Button>
+        <Button size="lg">
+          <a href="#contact">Contact Me</a>
+        </Button>
       </div>
     </section>
   );
